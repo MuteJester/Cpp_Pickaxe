@@ -5,7 +5,7 @@
 #include "Matrix.h"
 
 struct Coordinate{
-	int x, y,z;
+	int a,b,c,d,e;
 };
 
 
@@ -14,9 +14,19 @@ protected:
 	double Get_Square(double value) {
 		return value * value;
 	}
-	double squared_3Point_distance(Coordinate first, Coordinate second) {
-		return Get_Square(first.x - second.x) + Get_Square(first.y - second.y) + Get_Square(first.z - second.z);
+	double squared_2Point_distance(Coordinate first, Coordinate second) {
+		return Get_Square(first.a - second.a) + Get_Square(first.b - second.b);
 	}
+	double squared_3Point_distance(Coordinate first, Coordinate second) {
+		return Get_Square(first.a - second.a) + Get_Square(first.b - second.b) + Get_Square(first.c - second.c);
+	}
+	double squared_4Point_distance(Coordinate first, Coordinate second) {
+		return Get_Square(first.a - second.a) + Get_Square(first.b - second.b) + Get_Square(first.c - second.c) + Get_Square(first.d - second.d);
+	}
+	double squared_5Point_distance(Coordinate first, Coordinate second) {
+		return Get_Square(first.a - second.a) + Get_Square(first.b - second.b) + Get_Square(first.c - second.c) + Get_Square(first.d - second.d) + Get_Square(first.e - second.e);
+	}
+
 
 
 
@@ -45,7 +55,7 @@ public:
 					size_t best_cluster = 0;
 					for (size_t cluster = 0; cluster < k; ++cluster) {
 						const double distance =
-							squared_3Point_distance(data[point], means[cluster]);
+							squared_5Point_distance(data[point], means[cluster]);
 						if (distance < best_distance) {
 							best_distance = distance;
 							best_cluster = cluster;
@@ -81,11 +91,12 @@ public:
 
 				}
 			}
+			return means;
 
 		}
 
 
-		if (number_of_points_struct == 4) {
+		else if (number_of_points_struct == 4) {
 
 			for (size_t iteration = 0; iteration < number_of_iterations; ++iteration) {
 				// Find assignments.
@@ -94,7 +105,7 @@ public:
 					size_t best_cluster = 0;
 					for (size_t cluster = 0; cluster < k; ++cluster) {
 						const double distance =
-							squared_3Point_distance(data[point], means[cluster]);
+							squared_4Point_distance(data[point], means[cluster]);
 						if (distance < best_distance) {
 							best_distance = distance;
 							best_cluster = cluster;
@@ -128,10 +139,11 @@ public:
 
 				}
 			}
+			return means;
 
 		}
 
-		if (number_of_points_struct == 3) {
+		else if (number_of_points_struct == 3) {
 
 			for (size_t iteration = 0; iteration < number_of_iterations; ++iteration) {
 				// Find assignments.
@@ -156,9 +168,9 @@ public:
 
 				for (size_t point = 0; point < data.size(); ++point) {
 					const auto cluster = assignments[point];
-					new_means[cluster].x += data[point].x;
-					new_means[cluster].y += data[point].y;
-					new_means[cluster].z += data[point].z;
+					new_means[cluster].a += data[point].a;
+					new_means[cluster].b += data[point].b;
+					new_means[cluster].c += data[point].c;
 					counts[cluster] += 1;
 				}
 
@@ -166,15 +178,16 @@ public:
 				for (size_t cluster = 0; cluster < k; ++cluster) {
 					// Turn 0/0 into 0/1 to avoid zero division.
 					const auto count = std::max<size_t>(1, counts[cluster]);
-					means[cluster].x = new_means[cluster].x / count;
-					means[cluster].y = new_means[cluster].y / count;
-					means[cluster].z = new_means[cluster].z / count;
+					means[cluster].a = new_means[cluster].a / count;
+					means[cluster].b = new_means[cluster].b / count;
+					means[cluster].c = new_means[cluster].c / count;
 
 				}
 			}
+			return means;
 
 		}
-		if (number_of_points_struct == 2) {
+		else if (number_of_points_struct == 2) {
 
 			for (size_t iteration = 0; iteration < number_of_iterations; ++iteration) {
 				// Find assignments.
@@ -183,7 +196,7 @@ public:
 					size_t best_cluster = 0;
 					for (size_t cluster = 0; cluster < k; ++cluster) {
 						const double distance =
-							squared_3Point_distance(data[point], means[cluster]);
+							squared_2Point_distance(data[point], means[cluster]);
 						if (distance < best_distance) {
 							best_distance = distance;
 							best_cluster = cluster;
@@ -199,8 +212,8 @@ public:
 
 				for (size_t point = 0; point < data.size(); ++point) {
 					const auto cluster = assignments[point];
-					new_means[cluster].x += data[point].x;
-					new_means[cluster].y += data[point].y;
+					new_means[cluster].a += data[point].a;
+					new_means[cluster].b += data[point].b;
 					counts[cluster] += 1;
 				}
 
@@ -208,16 +221,21 @@ public:
 				for (size_t cluster = 0; cluster < k; ++cluster) {
 					// Turn 0/0 into 0/1 to avoid zero division.
 					const auto count = std::max<size_t>(1, counts[cluster]);
-					means[cluster].x = new_means[cluster].x / count;
-					means[cluster].y = new_means[cluster].y / count;
+					means[cluster].a = new_means[cluster].a / count;
+					means[cluster].b = new_means[cluster].b / count;
 
 				}
 			}
+			return means;
+
 
 		}
-
+		else {
 		return means;
+		}
 
 	}
+
+
 
 };
