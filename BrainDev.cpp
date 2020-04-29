@@ -1,12 +1,20 @@
 #include "CPPB_Lib.h"
-#include <iostream>
-
+using namespace std;
 
 int main() {
-	Brain bt;
-	
+	CSV_File data;
+	data.Load_CSV("G");
+	String_Vector tx{ "1","2" };
 
-	std::cout << "\n\n";
-	system("pause");
+	data.Add_Row(tx);
+	data.Add_Row();
+	data.Set_Value_At(1, data.Number_Of_Rows,"NewADD");
+	data.Write_CSV("G_1");
+
+
+
+
+	cout << "\n\n";
+	system("Pause");
 	return 0;
 }
