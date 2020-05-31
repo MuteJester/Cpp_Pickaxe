@@ -123,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPPB_Lib.h" />
+    <ClInclude Include="Cpp_SIPL.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_image_write.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
