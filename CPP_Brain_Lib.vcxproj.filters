@@ -20,9 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPPB_Lib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Cpp_SIPL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -30,6 +27,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP_Pickaxe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

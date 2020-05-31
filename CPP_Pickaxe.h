@@ -15,6 +15,7 @@
 #include <stack>
 #include <exception>
 
+namespace Pickaxe{
 
 #define Mmax(a,b) ((a) > (b) ? (a) : (b))
 #define Mmin(a,b) ((a) < (b) ? (a) : (b))
@@ -4201,3 +4202,5 @@ public:
 
 
 };
+
+}

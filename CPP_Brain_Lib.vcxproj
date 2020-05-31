@@ -122,7 +122,7 @@
     <ClCompile Include="BrainDev.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPPB_Lib.h" />
+    <ClInclude Include="CPP_Pickaxe.h" />
     <ClInclude Include="Cpp_SIPL.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="stb_image_write.h" />
