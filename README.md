@@ -190,13 +190,13 @@ Project Link: [https://github.com/MuteJester/Cpp_Pickaxe](https://github.com/Mut
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[stars-shield]: https://img.shields.io/github/stars/MuteJester/Java_Brain.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/MuteJester/Cpp_Pickaxe.svg?style=flat-square
 [stars-url]: https://github.com/MuteJester/Cpp_Pickaxe/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/MuteJester/Cpp_Pickaxe/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/MuteJester/Cpp_Pickaxe/blob/master/LICENSE
-[commits-shield]: https://img.shields.io/github/commit-activity/m/MuteJester/Java_Brain?style=flat-square
+[commits-shield]: https://img.shields.io/github/commit-activity/m/MuteJester/Cpp_Pickaxe?style=flat-square
 [commits-url]: https://github.com/MuteJester/Cpp_Pickaxe
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/thomas-konstantinovsky-56230117b/
