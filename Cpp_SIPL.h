@@ -8821,21 +8821,7 @@ public:
 		 }
 };
 
-Image Matrix_To_Graysacle(Matrix<double> &source) {
-	Image Res;
-	Res.Load_Blank_Canvas(source.Rows, source.Cols, Pixel(0, 0, 0));
-	for (int i = 0; i < source.Rows; i++) {
-		for (int j = 0; j < source.Cols; j++) {
-			Res[i][j].r = (int)source[i][j];
-			Res[i][j].g = (int)source[i][j];
-			Res[i][j].b = (int)source[i][j];
 
-		}
-	}
-	Res.Commint_Matrix_Changes();
-
-	return Res;
-}
 Image Matrix_To_Graysacle(std::vector<std::vector<double> > &source) {
 	Image Res;
 	Res.Load_Blank_Canvas(source.size(), source[0].size(), Pixel(0, 0, 0));
