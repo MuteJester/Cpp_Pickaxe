@@ -20,14 +20,14 @@
   <p align="center">
     Simple Solution For Fast Programing Of Data Mining ,Deep Learning And Machine Learning Models As Well As CSV Management.
     <br />
-    <a href="https://github.com/MuteJester/Java_Brain/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MuteJester/Cpp_Pickaxe/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/MuteJester/Java_Brain/wiki/A-Simple-Example-Of-Java-Brain-Usage">View Demo</a>
+    <a href="https://github.com/MuteJester/Cpp_Pickaxe/wiki/">View Demo</a>
     ·
-    <a href="https://github.com/MuteJester/Java_Brain/issues">Report Bug</a>
+    <a href="https://github.com/MuteJester/Cpp_Pickaxe/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MuteJester/Java_Brain/issues">Request Feature</a>
+    <a href="https://github.com/MuteJester/Cpp_Pickaxe/issues">Request Feature</a>
   </p>
 </p>
 
@@ -47,28 +47,22 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-There are a few Deep Learning And Machine Learning Java libraries out there, but none of them in my mind were simple enough to use and required the user to install loads of additional parts trough maven, etc.
-At that moment the idea to create a simple plug and play java classes which can be simply dragged into the src folder of any project and functionality of all the tools that the Java Brain library can be quickly and easily accessed and used.
+There are a few Deep Learning And Machine Learning C++ libraries out there, but none of them in my mind were simple enough to use and required the user to install loads of additional dll's and waste a lot of time of linking all the parts together.
+At that moment the idea is to create a simple plug and play C+= header file which can be simply dragged into the folder of any project and functionality of all the tools that the Pickaxe library can be quickly and easily accessed and used.
 
-Here's Why Java Brain :brain: :
+Here's Why Pickaxe :
 * It's As Simple As Drag And Drop and you are ready to code!
 * Function and methods are named meaningful names that way it is always clear what are the parameters or what does the method do!
 * CSV handling is all included in the library working with them made much easier trough java code!
 * Developing complex matrix algorithms ? we've got you covered with a dynamic Matrix class filled with quick usful methods strating from eigen value/vector extraction trough basic operations up to decompositions.
 ### Built With
-* [Eclipse](https://www.eclipse.org/)
-* [Inetlij](https://www.jetbrains.com/)
+* [Visual Studio](https://www.eclipse.org/)
 * [SIPL Image Proccesing Library](https://github.com/MuteJester/Simple_Image_Processing_Library)
 
-### Other Languages
- A python wrapper for the java brain library , it uses numpy,pandas,sympy and matplotlib inorder to give you the same coding experience as with java brain but under the python language ,all method and class are named and function exactly the same way they would in java,all that is needed to start working with the python version is to drag to 'Python_Brain' .py file into your project folder and import it.
-the usage is the same and the logic is the same.
-
-
 ### Installation
-1. Download Both Java Packages (JSipl and JBrain) From The Repository [Go To Repository Folder](https://github.com/MuteJester/Java_Brain/tree/master/Java_Brain)
-2. Copy Both Packages Into Your Projects /src Folder
-3. Import JBrain.* and JSipl.*
+1. Download All Headerfiles From The Repository [Go To Repository Folder](https://github.com/MuteJester/Cpp_Pickaxe/tree/master/Pickaxe_CPP)
+2. Copy Headerfiles Into Your Projects Folder
+3. Include "CPP_Pickaxe.h" and "CPP_Sipl.h" (for image processing and visual elements like plots)
 4. You Are Ready To Code!
 
 <!-- USAGE EXAMPLES -->
@@ -78,14 +72,14 @@ the usage is the same and the logic is the same.
 #### Ploting Linear Regression Algorithm
 
 <img src="Examples/Linear_Regression_data.png" alt="Logo" width="600" height="600">
-Java Brain Offers Binary Linear Regression As Well As Multivariable Linear Regression
+Pickaxe Offers Binary Linear Regression As Well As Multivariable Linear Regression
 in the following exmaple a fast method for immediate ploting of a linear regression model.
 
 
 #### Ploting Logistic Regression Algorithm
 
 <img src="Examples/Logistic_regression_shoots.png" alt="Logo" width="600" height="600">
-Java Brain Offers Binary Logistic Regression As Well As Multivariable Logistic Regression
+Pickaxe Offers Binary Logistic Regression As Well As Multivariable Logistic Regression
 in the following example a fast method for immediate plotting of a logistic regression model.
 the logistic regression functionality, as well as the linear regression, can be used as pleased
 the methods return the weights resulting after computing the optimal state using gradient descent;
@@ -95,13 +89,13 @@ the methods return the weights resulting after computing the optimal state using
 #### Ploting 2D K-Means Algorithm
 
 <img src="Examples/kmeans-k=2.png" alt="Logo" width="600" height="600">
-Java Brain Offers a fast and efficenet K-means calculation aglorithm although currently only up to 3 dimensional K - Means
+Pickaxe Offers a fast and efficenet K-means calculation aglorithm although currently only up to 3 dimensional K - Means
 calculations supported soon there will a higher dimension support system.
 
 #### Ploting 2D K-Nearest-Neighbors Algorithm
 
 <img src="Examples/KNN_example.png" alt="Logo" width="600" height="600">
-Java Brain Offers a simple and dynamic kNN implementation aglorithm for all your use case as well as a quick
+Pickaxe Offers a simple and dynamic kNN implementation aglorithm for all your use case as well as a quick
 plot method for immediate display of 2D kNN results. 
 In the above image- the red ciricle with the green dot in the center is the new added value, blue points that turned pink are the specified K nearest neighbors.
 
@@ -109,7 +103,7 @@ In the above image- the red ciricle with the green dot in the center is the new 
 
 <img src="Examples/FCNN-topology.png" alt="Logo" width="600" height="600">
 
-Java Brain Offers you a method which is a part of the Neural_Net class which allows you to visualize you neural network topology inorder for you to validate that the topology you have specified in the Neural_Net class constructor is indeed the topology created and set.  
+Pickaxe Offers you a method which is a part of the Neural_Net class which allows you to visualize you neural network topology inorder for you to validate that the topology you have specified in the Neural_Net class constructor is indeed the topology created and set.  
 
 
 
@@ -189,7 +183,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [Thomas Konstantinovsky]() - thomaskon90@gmail.com
 
-Project Link: [https://github.com/MuteJester/Java_Brain](https://github.com/MuteJester/Java_Brain)
+Project Link: [https://github.com/MuteJester/Cpp_Pickaxe](https://github.com/MuteJester/Cpp_Pickaxe)
 
 
 
@@ -197,12 +191,12 @@ Project Link: [https://github.com/MuteJester/Java_Brain](https://github.com/Mute
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [stars-shield]: https://img.shields.io/github/stars/MuteJester/Java_Brain.svg?style=flat-square
-[stars-url]: https://github.com/MuteJester/Java_Brain/stargazers
+[stars-url]: https://github.com/MuteJester/Cpp_Pickaxe/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/MuteJester/Java_Brain/issues
+[issues-url]: https://github.com/MuteJester/Cpp_Pickaxe/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/MuteJester/Java_Brain/blob/master/LICENSE
+[license-url]: https://github.com/MuteJester/Cpp_Pickaxe/blob/master/LICENSE
 [commits-shield]: https://img.shields.io/github/commit-activity/m/MuteJester/Java_Brain?style=flat-square
-[commits-url]: https://github.com/MuteJester/Java_Brain
+[commits-url]: https://github.com/MuteJester/Cpp_Pickaxe
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/thomas-konstantinovsky-56230117b/
