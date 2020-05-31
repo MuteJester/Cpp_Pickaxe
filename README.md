@@ -71,14 +71,14 @@ Here's Why Pickaxe :
 
 #### Ploting Linear Regression Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/Linear_Regression_data.png" alt="Logo" width="600" height="600">
+<img src="Misc/Linear_Regression_data.png" alt="Logo" width="600" height="600">
 Pickaxe Offers Binary Linear Regression As Well As Multivariable Linear Regression
 in the following exmaple a fast method for immediate ploting of a linear regression model.
 
 
 #### Ploting Logistic Regression Algorithm
 
-<img src="Examples/Logistic_regression_shoots.png" alt="Logo" width="600" height="600">
+<img src="Misc/Logistic_regression_shoots.png" alt="Logo" width="600" height="600">
 Pickaxe Offers Binary Logistic Regression As Well As Multivariable Logistic Regression
 in the following example a fast method for immediate plotting of a logistic regression model.
 the logistic regression functionality, as well as the linear regression, can be used as pleased
@@ -88,13 +88,13 @@ the methods return the weights resulting after computing the optimal state using
 
 #### Ploting 2D K-Means Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/kmeans-k=2.png" alt="Logo" width="600" height="600">
+<img src="Misc/kmeans-k=2.png" alt="Logo" width="600" height="600">
 Pickaxe Offers a fast and efficenet K-means calculation aglorithm although currently only up to 3 dimensional K - Means
 calculations supported soon there will a higher dimension support system.
 
 #### Ploting 2D K-Nearest-Neighbors Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/KNN_example.png" alt="Logo" width="600" height="600">
+<img src="Misc/KNN_example.png" alt="Logo" width="600" height="600">
 Pickaxe Offers a simple and dynamic kNN implementation aglorithm for all your use case as well as a quick
 plot method for immediate display of 2D kNN results. 
 In the above image- the red ciricle with the green dot in the center is the new added value, blue points that turned pink are the specified K nearest neighbors.
