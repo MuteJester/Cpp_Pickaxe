@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 There are a few Deep Learning And Machine Learning C++ libraries out there, but none of them in my mind were simple enough to use and required the user to install loads of additional dll's and waste a lot of time of linking all the parts together.
-At that moment the idea is to create a simple plug and play C+= header file which can be simply dragged into the folder of any project and functionality of all the tools that the Pickaxe library can be quickly and easily accessed and used.
+At that moment the idea is to create a simple plug and play C++ header file which can be simply dragged into the folder of any project and functionality of all the tools that the Pickaxe library can be quickly and easily accessed and used.
 
 Here's Why Pickaxe :
 * It's As Simple As Drag And Drop and you are ready to code!
