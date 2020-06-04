@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 There are a few Deep Learning And Machine Learning C++ libraries out there, but none of them in my mind were simple enough to use and required the user to install loads of additional dll's and waste a lot of time of linking all the parts together.
-At that moment the idea is to create a simple plug and play C+= header file which can be simply dragged into the folder of any project and functionality of all the tools that the Pickaxe library can be quickly and easily accessed and used.
+At that moment the idea is to create a simple plug and play C++ header file which can be simply dragged into the folder of any project and functionality of all the tools that the Pickaxe library can be quickly and easily accessed and used.
 
 Here's Why Pickaxe :
 * It's As Simple As Drag And Drop and you are ready to code!
@@ -71,14 +71,14 @@ Here's Why Pickaxe :
 
 #### Ploting Linear Regression Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/Linear_Regression_data.png" alt="Logo" width="600" height="600">
+<img src="Misc/Linear_Regression_data.png" alt="Logo" width="600" height="600">
 Pickaxe Offers Binary Linear Regression As Well As Multivariable Linear Regression
 in the following exmaple a fast method for immediate ploting of a linear regression model.
 
 
 #### Ploting Logistic Regression Algorithm
 
-<img src="Examples/Logistic_regression_shoots.png" alt="Logo" width="600" height="600">
+<img src="Misc/Logistic_regression_shoots.png" alt="Logo" width="600" height="600">
 Pickaxe Offers Binary Logistic Regression As Well As Multivariable Logistic Regression
 in the following example a fast method for immediate plotting of a logistic regression model.
 the logistic regression functionality, as well as the linear regression, can be used as pleased
@@ -88,13 +88,13 @@ the methods return the weights resulting after computing the optimal state using
 
 #### Ploting 2D K-Means Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/kmeans-k=2.png" alt="Logo" width="600" height="600">
+<img src="Misc/kmeans-k=2.png" alt="Logo" width="600" height="600">
 Pickaxe Offers a fast and efficenet K-means calculation aglorithm although currently only up to 3 dimensional K - Means
 calculations supported soon there will a higher dimension support system.
 
 #### Ploting 2D K-Nearest-Neighbors Algorithm
 
-<img src="https://github.com/MuteJester/Java_Brain/tree/master/Examples/KNN_example.png" alt="Logo" width="600" height="600">
+<img src="Misc/KNN_example.png" alt="Logo" width="600" height="600">
 Pickaxe Offers a simple and dynamic kNN implementation aglorithm for all your use case as well as a quick
 plot method for immediate display of 2D kNN results. 
 In the above image- the red ciricle with the green dot in the center is the new added value, blue points that turned pink are the specified K nearest neighbors.
@@ -190,13 +190,13 @@ Project Link: [https://github.com/MuteJester/Cpp_Pickaxe](https://github.com/Mut
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[stars-shield]: https://img.shields.io/github/stars/MuteJester/Java_Brain.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/MuteJester/Cpp_Pickaxe.svg?style=flat-square
 [stars-url]: https://github.com/MuteJester/Cpp_Pickaxe/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/MuteJester/Cpp_Pickaxe/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/MuteJester/Cpp_Pickaxe/blob/master/LICENSE
-[commits-shield]: https://img.shields.io/github/commit-activity/m/MuteJester/Java_Brain?style=flat-square
+[commits-shield]: https://img.shields.io/github/commit-activity/m/MuteJester/Cpp_Pickaxe?style=flat-square
 [commits-url]: https://github.com/MuteJester/Cpp_Pickaxe
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/thomas-konstantinovsky-56230117b/
