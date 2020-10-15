@@ -18,7 +18,7 @@
   <h3 align="center">Pickaxe Library</h3>
 
   <p align="center">
-    Simple Solution For Fast Programing Of Data Mining ,Deep Learning And Machine Learning Models As Well As CSV Management.
+    Simple Solution For Fast Programming Of Data Mining ,Deep Learning And Machine Learning Models As Well As CSV Management.
     <br />
     <a href="https://github.com/MuteJester/Cpp_Pickaxe/wiki"><strong>Explore the docs »</strong></a>
     <br />
